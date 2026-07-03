@@ -1,13 +1,21 @@
 # I-Robot
-I-Robot: Identifying Robotic and Human Motion in Humanoids, ICML 2026 Workshop
+
+Official Implementation for 
+
+I-Robot: Identifying Robotic and Human Motion in Humanoids, ICML 2026 Workshop [Paper](https://openreview.net/pdf?id=KID7LITvcW)
 
 
 
-# iRobot Training Manual
+---
+
+
+
 
 Binary classifier: **human (1)** vs **humanoid robot (0)**, trained on MHR motion sequences.
 
-This manual assumes you have **only the mhr dataset** at `/workspace/irobot/datasets`:
+
+
+
 
 You can get the **HumanVsHumanoid (HvH) dataset** in here [Google Drive](https://drive.google.com/drive/folders/1p4sKvaXCuHjcWTHF1UZKNTEWX3F4RbQa)
 It includes the raw YouTube URLs used for data collection, human-annotated bounding boxes for humanoid robots, and the extracted MHR pose sequences used for model training and evaluation.
@@ -17,7 +25,6 @@ It includes the raw YouTube URLs used for data collection, human-annotated bound
   robot/   # *_mhr.npy   (422 robot sequences)
 ```
 
-Code lives in `/workspace/irobot/irobot_src`.
 
 ---
 
